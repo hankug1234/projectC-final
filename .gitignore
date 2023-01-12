@@ -1,0 +1,5 @@
+projectCServer/venv
+projectCServer/userVideos/*
+projectCServer/modelCollection/pmg/carType.pth
+projectCServer/modelCollection/tensorflowModels/color.h5
+projectCServer/modelCollection/yolo/yolov5l.pth

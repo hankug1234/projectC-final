@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link href="/css/home.css" rel="stylesheet" type="text/css">
+        <title>HOME | Project C</title>
+        </head>
+    <body class="page">
+        <div class="wrap">
+            <div class="intro_bg">
+                <div class="header" id="link_header">
+                    <div class="main_title">
+                        <a href="/">Project C</a>
+                    </div>
+                
+                <ul class="nav">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="#link_main_text0">ABOUT</a></li>
+                    <li><a href="#link_main_text1">SERVICE</a></li>
+                    <th:block th:if="${session.clientId != null}">
+                    	<li><a th:href=@{/log/out}>SIGN OUT</a></li>
+                    	<li><a th:href=@{/repository} th:text="${session.clientId + ' Repository'}">SIGN UP</a></li>
+                    </th:block>
+                    <th:block th:if="${session.clientId == null}">
+                    	<li><a th:href=@{/signin}>SIGN IN</a></li>
+                    	<li><a th:href=@{/signup}>SIGN UP</a></li>
+                    </th:block>
+                </ul>
+                </div>
+                <div class="intro_text">
+                    <h1>차량 종류 및 색상 분류 서비스</h1>
+                    <h4 class="contents1">영상을 실시간으로 분석하여 원하는 조건의 차량을 찾아드립니다</h4>
+                </div>
+            </div>
+            <!--intro end-->
+            <ul class="amount">
+                <li>
+                    <div>
+                        <div class="contents1">차종 분류 정확률</div>
+                        <div class="contents2">93.78%</div>
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="contents1">차량 색상 분류 정확률</div>
+                        <div class="contents2">94.77%</div>
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="contents1">누적 이용고객</div>
+                        <div class="contents2">24,375명</div>
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="contents1">업계최고 정확률</div>
+                        <div class="contents2">국내 1위</div>
+
+                    </div>
+                </li>
+            </ul>
+
+            <div class="main_text0" id="link_main_text0">
+                <h1>ABOUT</h1>
+                <div class="contents1">우리는 가장 빠르고 정확하게<p>최상의 서비스를 제공합니다.</p></div>
+            
+                <ul class="icons">
+                    <li>
+                        <div class="icons_img">
+                            <img src="/images/sedan.png">
+                        </div>
+                        <div class="contents1_bold">차종 분류</div>
+                        <div class="contents3">딥러닝 객체 검출기(6종) <br> 소형, 세단, 승합, 버스, 트럭, SUV를 분류해줍니다</div>
+                    </li>
+                    <li>
+                        <div class="icons_img2">
+                            <img src="/images/South-Korea-1.jpg">
+                        </div>
+                        <div class="contents1_bold">색상 분류</div>
+                        <div class="contents3">국내 자동차 인기 색상 8가지를 분류해줍니다</div>
+                    </li>
+                    <li>
+                        <div class="icons_img">
+                            <img src="/images/camera.webp">
+                        </div>
+                        <div class="contents1_bold">실시간 영상 분석</div>
+                        <div class="contents3">저화질의 CCTV 영상까지 완벽 분석</div>
+                    </li>
+                </ul>
+            
+            </div>
+            
+            <div class="main_text1" id="link_main_text1">
+                <h1>SERVICE</h1>
+                <div class="contents1">YOLO 모델과 EfficientNet 모델을 합성하여 빠르고 정확하게 영상 분석함으로서 인력 낭비를 줄이는데 큰 도움을 드립니다 </div>
+                <div class="service">
+                    <div class="car_photo">
+                        <div class="car1">
+                            <img src="./images/image3-2.jpg">
+                            <img src="./images/image3-2.jpg">
+                        </div>
+                        <div class="car1">
+                            <img src="./images/image3-2.jpg">
+                            <img src="./images/image3-2.jpg">
+                        </div>
+                    </div>
+                    <div class="contents2">
+                        
+                    </div>
+          
+                </div>
+            
+            </div>
+            <div class="main_text2"></div>
+
+            <footer>
+                <div>
+                    <img src="./images/LOGO.png">
+                </div>
+                <div>
+                    PM. 한국 <br>
+                    Members. 김종민, 김성진, 김민혁 <br>
+                    COPYRIGHT 2022. TAMO. ALL RIGHT RESERVED.
+                </div>
+            </footer>
+
+        </div>
+        
+        
+    </body>
+</html>

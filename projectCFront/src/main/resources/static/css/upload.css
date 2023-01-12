@@ -1,0 +1,161 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none; /*리스트 점 삭제*/
+    text-decoration: none; /*하이퍼텍스트 밑줄 색 삭제*/
+    border-collapse: collapse; /*테이블 줄 통합*/
+    margin: 0px;
+    padding: 0px;
+    color:#000000; /*글자색 기본 검정*/
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+.contents1{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.contents1_bold{
+  font-size: 18px;
+  font-weight: bold;
+}
+.contents2{
+  font-size: 18px;
+}
+.contents3{
+  font-size: 14px;
+  font-weight: 100;
+}
+/*제목*/
+.intro_bg{
+
+    width: 100%;
+}
+.header{
+  display: flex;
+  width:100%;
+  margin:auto;
+  height: 86px;
+  background:rgba(0, 0, 0, 0.8);
+}
+.main_title{
+  width:300px;
+  height:40px;
+  border-radius: 5px;
+  margin-top: 24px;
+  margin-left: 24px;
+
+}
+.main_title > a{
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+/*제목 끝*/
+/*상단 메뉴*/
+.nav{
+  display: flex;
+  justify-content: flex-end; /*오른쪽에 붙여줌*/
+  line-height: 86px;
+  width:calc(1480px - 300px);
+}
+.nav > li{
+  margin-left: 84px;
+}
+.nav > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+/*상단 메뉴 끝*/
+
+
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+  }
+  
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone .drop {
+  color: #222;
+  border-color: #222;
+}
+
+.form-heading { color:#fff; font-size:23px;}
+
+.main-div {
+  height:100%;	
+  background-color: rgba(240, 240, 240, 0.5);
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  width: 350px;
+  padding: 50px 10px 10px 10px; 
+  top: 150px;
+  right: 300px;
+  }
+
+.main-div2 {
+  background-color: rgba(240, 240, 240, 0.5);
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  width: 350px;
+  padding: 50px 10px 10px 10px; /*top right bottom left*/
+  position: relative;
+  bottom: 400px;
+  left: 300px;
+}
+
+
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+  }
+  
+  /* skin.css Style*/
+  .upload-drop-zone {
+    color: black;
+    border-style: dashed;
+    border-color: black;
+    line-height: 200px;
+    text-align: center
+  }
+  .upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+  }
+
+.navbar.navbar-expand-lg.bg-light{
+  opacity: 0.7;
+}
+/*footer*/
+footer{
+  width:100%;
+  position:fixed;	
+  bottom : 0;	
+  display:flex;
+  margin-top: -130px;
+  background:rgba(0, 0, 0, 1);
+  padding:10px;
+}
+
+footer > div:first-child{
+  text-align: center;
+  flex:3;
+  color:#fff;
+}
+footer > div:last-child{
+  margin-top:15px;
+  flex:9;
+  color:#fff;
+}
