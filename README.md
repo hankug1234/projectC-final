@@ -10,6 +10,4 @@ projectCServer/modelCollection/yolo/ -> yolov5l.pth
 cartype.pth is pmgnet that was achived sota for stanford car type benchmark and it is pre trained our own 6 car type dataset ["bus","compact","sedan","suv","truck","van"]
 color.h5 was pre trained by mobile net and it can classify 7 car color ["black", "blue", "green","red","silver","white","yellow"]
 yolo5l.pth is pre trained yolov5 model
-# projectC-final
-# projectC-final
-# projectC-final
+
