@@ -11,3 +11,4 @@ cartype.pth is pmgnet that was achived sota for stanford car type benchmark and 
 color.h5 was pre trained by mobile net and it can classify 7 car color ["black", "blue", "green","red","silver","white","yellow"]
 yolo5l.pth is pre trained yolov5 model
 
+if you see more detail aboud our project please check issues and download .mp4 .pdf file
