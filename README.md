@@ -1,16 +1,15 @@
 # final-projectC
-projectC is video analysis application using artificial neural network. use this application you can easily search car type and color that you want to search in videos
-projectC neural models is located another repository in https://github.com/hankug1234/models
-if you test this application must download models and locate each models in
-
-projectCServer/modelCollection/pmg/ -> carType.pth
-projectCServer/modelCollection/tensorflowModels/ -> color.h5
-projectCServer/modelCollection/yolo/ -> yolov5l.pth
-
-cartype.pth is pmgnet that was achived sota for stanford car type benchmark and it is pre trained our own 6 car type dataset ["bus","compact","sedan","suv","truck","van"]
-color.h5 was pre trained by mobile net and it can classify 7 car color ["black", "blue", "green","red","silver","white","yellow"]
-yolo5l.pth is pre trained yolov5 model
-<br/>
-<br/>
-if you see more detail aboud our project please check issues and download .mp4 .pdf file<br/>
-our server test environment was RTX3080 one GPU<br/>
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/807d3f65-00ff-487b-bb07-0ff0c70c5521">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/a260f48d-8c1f-40a7-baa7-4f3c261bb5eb">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/dfde03f6-fa7d-49b9-b363-3b8a1528b4ae">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/2fd7d2a5-d5ea-4799-8c8a-c8e4fc365da8">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/05e747b1-ffa5-4ce9-a816-5a0c962fca01">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/46f3b75b-60ae-461a-9336-1f26c615e485">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/9acd2323-6c02-45eb-b22a-d3c476c274f3">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/fcc7dec2-20c0-4a8d-adb6-83ced08e5072">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/e3c564c8-5937-4e9a-8f0d-989fe0053892">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/a57e5b24-98d3-4628-9f04-2a6ed5474bad">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/b6b2fb3e-bda3-46b3-ae41-622c8361fecd">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/1341ebbe-dde1-4b54-863f-30bde32e57d9">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/8aea8fea-d784-44df-a5a9-3b8601cfe11c">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/ac6f173f-5410-4901-ba8e-992e00a0ec82">
