@@ -1,4 +1,6 @@
 # final-projectC
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/b49b8256-581b-4eca-9c28-d73aee032528">
+<img src="https://github.com/hankug1234/projectC-final/assets/44136525/f8e4277c-4ddf-473a-8590-c1e1e7b4d2e2">
 <img src="https://github.com/hankug1234/projectC-final/assets/44136525/807d3f65-00ff-487b-bb07-0ff0c70c5521">
 <img src="https://github.com/hankug1234/projectC-final/assets/44136525/a260f48d-8c1f-40a7-baa7-4f3c261bb5eb">
 <img src="https://github.com/hankug1234/projectC-final/assets/44136525/dfde03f6-fa7d-49b9-b363-3b8a1528b4ae">
